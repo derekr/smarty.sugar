@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--sugar-->
+<settings>
+
+  <language id="com.gridlee.Programming.Smarty">
+  	<name>Smarty-PHP</name>
+  	<root-zone>sourcecode.smarty</root-zone>
+  	
+  	<detectors>
+  		<extension casesensitive="false">tpl</extension>
+	    <combo>
+	    	<extension casesensitive="false">tpl</extension>
+	    	<match-content lines="1"><![CDATA[(?i)<!DOCTYPE html PUBLIC]]></match-content>
+		</combo>
+		<combo>
+	    	<extension casesensitive="false">tpl</extension>
+	    	<match-content lines="1"><![CDATA[(?i)<html]]></match-content>
+		</combo>
+  	</detectors>
+  	
+  </language>
+
+  <meta>
+    <name>
+    	Smarty-PHP
+    </name>
+    <description>
+    	Official Smarty-PHP.sugar for Espresso
+    </description>
+    <author>
+    	Derek Reynolds
+    </author>
+    <identifier>
+    	com.gridlee.Programming.Smarty
+    </identifier>
+    <version status="preview">
+    	1.0b1
+    </version>
+  </meta>
+
+</settings>

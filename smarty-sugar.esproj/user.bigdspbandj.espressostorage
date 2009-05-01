@@ -24,6 +24,18 @@
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/bigdspbandj/Repositories/Git/Espresso/smarty-sugar/PlaceholderThemes/Smarty.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/bigdspbandj/Repositories/Git/Espresso/smarty-sugar/Tests/test.tpl</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
 		</array>
 	</dict>
 </dict>

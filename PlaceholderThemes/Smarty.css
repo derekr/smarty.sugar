@@ -1,0 +1,32 @@
+/*
+	@theme PHP Placeholder
+	@placeholder smarty
+*/
+
+variable {
+	color: #4F9FCF;
+}
+
+smarty.delimiter {
+	color: #699d36;
+}
+
+keyword {
+	color: #d48080;
+}
+
+attribute.name {
+	color: #3482da;
+	background-color: #f2fbfe;
+}
+
+integer,
+boolean {
+	color: #6700b9;
+	background-color: #fbf2fe;
+}
+
+string.unquoted {
+	color: #bc670f;
+	background-color: rgba(251,233,173,0.1);
+}
